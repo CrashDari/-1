@@ -1,4 +1,6 @@
 import math as m
+import time
+start = time.time()
 #создаём список простых чисел
 def prost():
     nnn = []
@@ -64,7 +66,8 @@ vlog.sort(reverse = True)
 
 print('Наиболее часто встречающиеся двузначные числа:  ')
 srt(vlog)
-
+end = time.time()
+print(end - start)
 
 
 
